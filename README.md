@@ -2,7 +2,7 @@
 
 A web app with reserve a table functionality with React and Django. This app is combination of Meta Back-End Developer Professional Certificate and Meta Front-End Professional Certificate projects.
 
-[Live demo](littlelemonrestaurant-mdogan89s-projects.vercel.app)
+[Live demo](https://littlelemonrestaurant-mdogan89s-projects.vercel.app)
 
 APIs:
 
