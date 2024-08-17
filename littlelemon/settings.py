@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "djoser",
     "restaurant",
     "corsheaders",
+    "contact",
 ]
 
 MIDDLEWARE = [
@@ -174,30 +175,3 @@ DJOSER = {"USER_ID_FIELD": "username"}
 
 CORS_ORIGIN_ALLOW_ALL = True
 ALLOWED_HOSTS = ["*"]
-
-
-# from corsheaders.defaults import default_headers
-
-# CORS_ALLOW_HEADERS = [
-#     "accept",
-#     "accept-encoding",
-#     "authorization",
-#     "content-type",
-#     "origin",
-#     "dnt",
-#     "user-agent",
-#     "x-csrftoken",
-#     "x-requested-with",
-# ]
-
-# CORS_ALLOW_CREDENTIALS = True
-
-# CORS_ALLOW_METHODS = ["DELETE", "GET", "OPTIONS", "PATCH", "POST", "PUT"]
-
-# if "VERCEL" in os.environ:
-#     # Disable collectstatic during Vercel deployment
-#     VERCEL = True
-#     COMPRESS_ENABLED = True  # Use Django Compressor
-#     COMPRESS_OFFLINE = True  # Run collectstatic during development
-# else:
-#     VERCEL = False
